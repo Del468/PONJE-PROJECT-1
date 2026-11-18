@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio website">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar container">
+            <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container" id="home">
+        <div class="hero-content reveal">
+            <span class="availability">
+                <span class="status-dot"></span>
+                Available for opportunities
+            </span>
+
+            <h1>
+                Hello, I'm<br>
+                <span class="highlight">Your Name.</span>
+            </h1>
+
+            <h2 class="hero-subtitle">Creative Developer & Designer</h2>
+
+            <p class="hero-description">
+                I create beautiful, functional, and user-friendly digital
+                experiences. I love turning creative ideas into reality
+                through design and technology.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work ↗</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank">GitHub ↗</a>
+                <a href="https://linkedin.com/" target="_blank">LinkedIn ↗</a>
+                <a href="https://instagram.com/" target="_blank">Instagram ↗</a>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="visual-card">
+                <div class="card-top">
+                    <span>✦</span>
+                    <span>MY CREATIVE SPACE</span>
+                </div>
+
+                <div class="visual-center">
+                    <div class="circle circle-one"></div>
+                    <div class="circle circle-two"></div>
+                    <div class="circle circle-three"></div>
+
+                    <span class="visual-text">CREATE<br>INSPIRE<br>BUILD.</span>
+                </div>
+
+                <div class="card-bottom">
+                    <span>DESIGN × CODE</span>
+                    <span>2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container reveal">
+            <span class="section-label">01 — ABOUT ME</span>
+            <h2 class="section-title">A little about <span>me.</span></h2>
+
+            <div class="about-grid">
+                <div class="about-description">
+                    <p>
+                        I'm a passionate creative who enjoys exploring
+                        technology, design, and digital experiences.
+                        I love learning new things and finding creative
+                        solutions to everyday problems.
+                    </p>
+
+                    <p>
+                        My goal is to build things that are not only
+                        visually appealing, but also meaningful,
+                        accessible, and easy to use.
+                    </p>
+
+                    <p>
+                        I'm constantly growing, experimenting, and
+                        challenging myself to become better at what I do.
+                    </p>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail">
+                        <span>NAME</span>
+                        <p>Your Name</p>
+                    </div>
+
+                    <div class="detail">
+                        <span>LOCATION</span>
+                        <p>Your City, Philippines</p>
+                    </div>
+
+                    <div class="detail">
+                        <span>ROLE</span>
+                        <p>Developer / Designer</p>
+                    </div>
+
+                    <div class="detail">
+                        <span>EMAIL</span>
+                        <p>your@email.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container reveal">
+            <span class="section-label">02 — MY SKILLS</span>
+            <h2 class="section-title">What I <span>do.</span></h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <span class="skill-icon">⌨</span>
+                    <h3>HTML5</h3>
+                    <p>Building accessible web structures.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">✦</span>
+                    <h3>CSS3</h3>
+                    <p>Creating modern and responsive layouts.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactive functionality.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">◈</span>
+                    <h3>UI / UX</h3>
+                    <p>Designing user-friendly experiences.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container reveal">
+            <span class="section-label">03 — MY PROJECTS</span>
+            <h2 class="section-title">Selected <span>works.</span></h2>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-preview preview-one">
+                        <span class="preview-icon">✦</span>
+                        <span class="preview-title">WEB DESIGN</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive portfolio website that showcases
+                            my skills, experience, and creative work.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview preview-two">
+                        <span class="preview-icon">◉</span>
+                        <span class="preview-title">CREATIVE PROJECT</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Creative Landing Page</h3>
+                        <p>
+                            A modern landing page concept featuring
+                            creative layouts and responsive design.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>UI Design</span>
+                            <span>Responsive</span>
+                        </div>
+
+                        <a href="#" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview preview-three">
+                        <span class="preview-icon">⌘</span>
+                        <span class="preview-title">DEVELOPMENT</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Web Application</h3>
+                        <p>
+                            An interactive web app concept designed
+                            to make everyday tasks easier.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Frontend</span>
+                        </div>
+
+                        <a href="#" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview preview-four">
+                        <span class="preview-icon">✧</span>
+                        <span class="preview-title">EXPERIMENTAL</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Digital Experiment</h3>
+                        <p>
+                            A personal experiment exploring creative
+                            ideas, visual styles, and new technologies.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Creative</span>
+                            <span>Design</span>
+                        </div>
+
+                        <a href="#" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container reveal">
+            <div class="contact-box">
+                <span class="section-label">04 — GET IN TOUCH</span>
+
+                <h2>Let's make something<br><span>awesome together.</span></h2>
+
+                <p>
+                    Have a project, an idea, or an opportunity?
+                    I'd love to hear from you.
+                </p>
+
+                <a href="mailto:your@email.com" class="btn btn-primary">
+                    Say Hello ↗
+                </a>
+
+                <div class="contact-socials">
+                    <a href="https://github.com/">GitHub</a>
+                    <a href="https://linkedin.com/">LinkedIn</a>
+                    <a href="https://instagram.com/">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>© <span id="year"></span> Your Name</p>
+            <p>Designed & built with passion.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("active");
+            });
+        });
+
+        // Automatic copyright year
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        // Scroll reveal animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll(".reveal").forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+
+</body>
+</html>
